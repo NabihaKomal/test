@@ -7,6 +7,9 @@ function changeLetterCase(){
  console.log(`Name : ${personname}`);
  console.log(`Name in lowercase: ${personname.toLowerCase()}`);
  console.log(`Name in uppercase: ${personname.toUpperCase()}`);
+
+ let titleCaseName = personname.toLowerCase.split(' ');
+
 }
 
 changeLetterCase();
